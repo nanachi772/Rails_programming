@@ -1,0 +1,7 @@
+n = 10
+
+def test(n)
+  puts n ** 10
+end
+
+test(n)
