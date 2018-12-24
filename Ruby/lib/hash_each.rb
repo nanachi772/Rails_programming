@@ -12,3 +12,4 @@ countries.each do |key_value|
   value = key_value[1]
   puts "#{key} : #{value}"
 end
+
