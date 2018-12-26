@@ -8,9 +8,7 @@ end
 def show_currency(country)
   currency = find_currency(country)
   # nilでないことを確認する。
-  if currency
-    currency.upcase
-  end
+  currency&.upcase
 end
 
 puts show_currency(:japan)
